@@ -1,0 +1,67 @@
+ESERCIZIO 1 
+ARRAY STRINGHE --> NOMI ["X", "Y", "Z"...]
+    Cercare il nome Samantha
+
+    var array = input
+    var sam = false
+    for ( i : 0 --> n)
+        if (array [i] is "samantha")
+                print ("c'è")
+                exit
+       print ("non c'è")
+
+
+ESERCIZIO 2
+Scrivere lo pseudocodice per trovare il valore "x" in un array di valori
+scopo: trovare la "x"
+come lo faccio? Creando un loop passando tutti gli elementi degli array da 0 a n 
+L'algoritmo mi permette di fare un loop su tutti i dati da 0 a n, se trova la x andrà in stampa "c'è" e il loop termina in quel momento. 
+Se l'algoritmo non trova il valore x allora (fuori dal for) stamperò "non c'è".
+
+      var as [  ] = input
+      var x = input
+      for ( i : 0 --> n )
+           if ( as [i] == x )
+                  print ( "c'è" )
+      print ( "non c'è" )
+      exit
+
+
+ESERCIZIO 3
+Array di valori 
+  
+      var as [  ] = input
+      var somma = 0        --> inizializziamo inserendo 0 che è il valore minimo della addizione. 
+                               per il prodotto invece avremo 1 perchè se moltiplichiamo per 0 otteniamo 0. 
+
+      for ( i : 0 --> n )   --> n è la dimensione dell'array
+           [as] i 
+      somma = somma + as [i]
+      if (somma : 2 ) 
+           print ("pari")
+      else 
+           print ("dispari")
+
+
+ESERCIZIO 4
+CODICE DI FIBONACCI 
+Creare un algoritmo per un cliente che ci chiede di trovare un valore con il codice di fibonacci.
+
+     var fib = input 
+     if ( fib is 1 or 1 or fib is 2 )     => intendiamo fib = 1 e fib = 2 perchè questi due casi BASE sono uguali sempre
+             print ("1")
+             exit
+     var result = 2         // (commento) caso 3
+     var prev = 1 
+          for ( i : 4 --> < fib )
+          var temp = result
+          result = result + previous
+          previous = temp
+
+
+
+
+
+
+
+
